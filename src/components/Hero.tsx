@@ -44,14 +44,23 @@ const Hero = () => {
             >
               View My Projects
             </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth px-8 py-3"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
+           <Button
+  variant="outline"
+  size="lg"
+  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth px-8 py-3"
+  onClick={() => {
+    const link = document.createElement("a");
+    link.href = "/akresume.pdf"; // Make sure the file is in public/
+    link.download = "Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+>
+  <Download className="mr-2 h-5 w-5" />
+  Download Resume
+</Button>
+
           </div>
 
           <div className="flex items-center space-x-6">
