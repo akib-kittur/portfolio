@@ -9,32 +9,32 @@ const Projects = () => {
       title: "Astute - Real time monitoring system",
       description: "Advanced real-time monitoring system with live data visualization, automated alerts, and comprehensive analytics dashboard for system performance tracking.",
       technologies: ["React", "TypeScript", "Node.js", "Socket.io", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/akib-kittur/hackvyuha-21",
+      demo: "https://github.com/akib-kittur/hackvyuha-21",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
     },
     {
       title: "Study spark - AI support study materials",
       description: "AI-powered educational platform that generates personalized study materials, practice questions, and learning paths tailored to individual student needs.",
       technologies: ["React", "Python", "FastAPI", "OpenAI", "PostgreSQL"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/akib-kittur/study-spark-ai-32",
+      demo: "https://github.com/akib-kittur/study-spark-ai-32",
       image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop"
     },
     {
       title: "Set-Time: Watches branded website",
       description: "Elegant e-commerce website for luxury watch brands featuring product catalogs, detailed specifications, and seamless shopping experience.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Stripe", "Firebase"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/akib-kittur/Set-time",
+      demo: "https://github.com/akib-kittur/Set-time",
       image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400&h=250&fit=crop"
     },
     {
       title: "Plant disease detection - Using Python ML AI",
       description: "Machine learning application for detecting plant diseases through image analysis, helping farmers identify and treat crop issues early.",
       technologies: ["Python", "TensorFlow", "OpenCV", "Flask", "Scikit-learn"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/akib-kittur/Plant_disease_detection",
+      demo: "https://github.com/akib-kittur/Plant_disease_detection",
       image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
     }
   ];
